@@ -50,7 +50,6 @@
 
 /* Inizio contenuto sidebar-avatar */
 
-
  .contenuto-sidebar .sidebar .social-me {
      position: absolute;
      display: flex 1;
@@ -64,4 +63,3 @@
 .contenuto-sidebar .sidebar .social-me a {
     color: black;
 }
-/* Fine contenuto sidebar-avatar */
