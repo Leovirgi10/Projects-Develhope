@@ -17,15 +17,15 @@
     position: fixed;
     width: 200px;
     height: 100%;
-    background-color: aliceblue;
+    background-color:coral;
     padding: 10px;
 }
 
 
 .contenuto-sidebar .sidebar h2 {
-    color: blue;
+    color:darkred;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -57,4 +57,10 @@
      bottom: 0;
      left: 50%;
      transform: translateX(-50%);
+     background-color: crimson;
+}
+
+
+.contenuto-sidebar .sidebar .social-me a {
+    color: black;
 }
