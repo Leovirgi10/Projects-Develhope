@@ -1,0 +1,45 @@
+nav{
+    display: fixed;
+    padding: 1px;
+    border-radius: 0.5px;
+    background-color:darkslategray;
+}
+
+/*Inizio stile barra di navigazione */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#invia:hover {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+svg{
+    display: none;
+}
+/*Inizio stile barra di navigazione */
+
+/*media query con and logico si attiva sotto i 768px */
+@media screen and (max-width: 768px) {
+    ul {
+        justify-content: space-between;
+    }
+
+    svg{
+        display: inline;
+    }
+
+    a,
+    select,
+    button,
+    input {
+        display: none;
+    }
+
+}
+
